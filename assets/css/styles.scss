@@ -43,7 +43,7 @@ h6,
   top: 0;
   z-index: 1000;
   backdrop-filter: blur(10px);
-  background: rgba(245, 240, 232, 0.92);
+  background: rgba(245, 240, 232, 0.96);
   border-top: 4px solid var(--grc-rose);
   border-bottom: 1px solid var(--grc-border);
   box-shadow: 0 2px 12px var(--grc-shadow);
@@ -54,7 +54,7 @@ h6,
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
-  padding: 1rem 0;
+  padding: 0.8rem 0;
 }
 
 .grc-brand {
@@ -68,12 +68,11 @@ h6,
   width: 52px;
   height: 52px;
   object-fit: contain;
-  border-radius: 14px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  border-radius: 10px;
 }
 
 .grc-brand-text {
-  font-size: 2rem;
+  font-size: 1.9rem;
   font-weight: 700;
 }
 
@@ -99,12 +98,12 @@ h6,
 
 .grc-hero {
   position: relative;
-  min-height: 82vh;
+  min-height: 78vh;
   display: flex;
   align-items: center;
   overflow: hidden;
   background:
-    linear-gradient(rgba(20,18,18,0.70), rgba(20,18,18,0.70)),
+    linear-gradient(rgba(20,18,18,0.72), rgba(20,18,18,0.72)),
     radial-gradient(circle at top left, rgba(154,57,70,0.42), transparent 40%),
     radial-gradient(circle at bottom right, rgba(124,119,82,0.28), transparent 35%),
     #1f1b1b;
@@ -114,17 +113,17 @@ h6,
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url('/assets/images/branding/grc-banner.PNG');
+  background-image: url('{{ "/assets/images/branding/grc-banner.PNG" | relative_url }}');
   background-size: cover;
   background-position: center;
-  opacity: 0.14;
+  opacity: 0.12;
   mix-blend-mode: screen;
 }
 
 .grc-hero-overlay {
   position: relative;
   width: 100%;
-  padding: 7rem 0;
+  padding: 5rem 0;
   z-index: 1;
 }
 
@@ -133,13 +132,14 @@ h6,
 }
 
 .grc-hero-logo {
-  width: min(520px, 90vw);
+  width: min(560px, 100%);
   margin-bottom: 2rem;
+  display: block;
   filter: drop-shadow(0 10px 25px rgba(0,0,0,0.35));
 }
 
 .grc-hero h1 {
-  font-size: clamp(3rem, 7vw, 5.5rem);
+  font-size: clamp(2.8rem, 7vw, 5.5rem);
   line-height: 0.95;
   color: #fff;
   margin-bottom: 1.5rem;
@@ -147,7 +147,7 @@ h6,
 
 .grc-hero-text {
   color: rgba(255,255,255,0.92);
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   max-width: 620px;
 }
 
@@ -226,6 +226,8 @@ hr {
 
 .wrapper {
   max-width: 1100px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .site-footer {
@@ -261,26 +263,55 @@ hr {
 @media (max-width: 768px) {
   .site-header-wrapper {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    text-align: center;
+  }
+
+  .grc-brand {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .grc-nav-logo {
+    width: 120px;
+    height: auto;
+    border-radius: 0;
   }
 
   .grc-brand-text {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   .site-nav {
-    gap: 0.8rem;
+    justify-content: center;
+    gap: 1rem;
   }
 
   .grc-hero {
-    min-height: 70vh;
+    min-height: auto;
+  }
+
+  .grc-hero-overlay {
+    padding: 4rem 0;
+  }
+
+  .grc-hero-content {
+    text-align: center;
+  }
+
+  .grc-hero-logo {
+    width: 100%;
+    max-width: 420px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .grc-hero h1 {
     line-height: 1;
+    font-size: 2.7rem;
   }
 
-  .grc-hero-overlay {
-    padding: 5rem 0;
+  .grc-hero-buttons {
+    justify-content: center;
   }
 }
