@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<div class="grc-page-hero grc-dark-section">
+  <h1>{{ page.title }}</h1>
+
+  {% if page.discipline %}
+    <p>{{ page.discipline }}{% if page.status %} · {{ page.status }}{% endif %}</p>
+  {% endif %}
+</div>
+
+<div class="grc-editorial-section">
+  <div class="grc-editorial-panel">
+    {{ content }}
+  </div>
+</div>
+
+{% if page.tags %}
+<h2>Creative Tags</h2>
+
+<div class="grc-tag-grid">
+  {% for tag in page.tags %}
+    <span>{{ tag }}</span>
+  {% endfor %}
+</div>
+{% endif %}
