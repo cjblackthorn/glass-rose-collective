@@ -1,8 +1,8 @@
 title: Glass Rose Collective
 author: Glass Rose Collective
 description: Indie artist publishing, representation, and collective support for creators building outside the algorithm.
-url: ""
-baseurl: ""
+url: "https://cjblackthorn.github.io"
+baseurl: "/glass-rose-collective"
 
 theme: minima
 show_excerpts: true
