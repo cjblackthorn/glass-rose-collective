@@ -3,82 +3,96 @@ layout: home
 title: Glass Rose Collective
 ---
 
-Glass Rose Collective supports artists of all types through publishing, distribution, representation support, creative networking, and long-term creator development.
+<div class="grc-page-hero grc-dark-section">
+  <h1>Independent publishing, creative support, and artist development for creators building something real.</h1>
 
-We provide resources for independent and self-publishing creators while also operating as a publishing house for artists and projects aligned with the collective.
+  <p>
+    Glass Rose Collective supports artists through publishing, distribution guidance, representation support, collaboration, and long-term creative development.
+  </p>
 
-We support:
+  <div class="grc-hero-buttons">
+    <a class="grc-button" href="{{ '/services/' | relative_url }}">Explore Services</a>
+    <a class="grc-button-secondary" href="{{ '/artists/' | relative_url }}">Artists</a>
+  </div>
+</div>
 
-- writers
-- musicians
-- bands
-- photographers
-- visual artists
-- designers
-- multimedia creators
-- independent and alternative artists
+<div class="grc-card-grid">
+  <section class="grc-service-card">
+    <h2>Publishing</h2>
+    <p>
+      Support for books, poetry, music, multimedia projects, and collaborative releases.
+    </p>
+  </section>
 
-Whether helping creators self-publish or working directly alongside them through the collective, our goal remains the same:
+  <section class="grc-service-card">
+    <h2>Distribution</h2>
+    <p>
+      Guidance for creators navigating publishing platforms, release workflows, and sustainable distribution strategies.
+    </p>
+  </section>
 
-> Help artists build something real without losing themselves in the process.
-
-Glass Rose Collective also provides band representation and creator support connections focused on helping artists grow sustainably.
-
-We are not talent agents.
-
-Instead, we focus on:
-
-- publishing
-- distribution
-- creator resources
-- networking
-- collaboration
-- branding
-- representation support
-- artist development
-
----
-
-## What We Do
-
-- Self-publishing resources and guidance
-- Publishing house support
-- Distribution assistance
-- Band representation
-- Creative networking and referrals
-- Branding and identity development
-- Collaborative projects
-- Community-focused creator support
-- Long-term artist growth strategy
+  <section class="grc-service-card">
+    <h2>Representation Support</h2>
+    <p>
+      Creator-focused networking, branding guidance, referrals, and collaborative opportunity support.
+    </p>
+  </section>
+</div>
 
 ---
 
-## The Collective Philosophy
+<div class="grc-split-section">
+  <div>
+    <h2>The Collective Philosophy</h2>
 
-Glass Rose Collective was built around a simple belief:
+    <p>
+      Creative people deserve spaces that still feel human.
+    </p>
 
-Creative people deserve spaces that feel human.
+    <p>
+      Not every artist wants to become content.
+      Not every project should be optimized into something hollow.
+    </p>
 
-Not every artist needs a corporation.
-Not every creator wants to become content.
-Not every project should be optimized into something hollow.
+    <p>
+      Glass Rose Collective exists to help creators grow without erasing themselves in the process.
+    </p>
+  </div>
 
-We believe independent creators deserve support systems that help them grow without forcing them to erase themselves.
+  <div class="grc-quote-panel">
+    <blockquote>
+      “Help artists build something real without losing themselves in the process.”
+    </blockquote>
+  </div>
+</div>
 
 ---
 
-## Featured Artists
+<h2>Who We Support</h2>
 
-Featured artist pages and creator spotlights are coming soon.
+<div class="grc-tag-grid">
+  <span>Writers</span>
+  <span>Bands</span>
+  <span>Musicians</span>
+  <span>Photographers</span>
+  <span>Visual Artists</span>
+  <span>Designers</span>
+  <span>Multimedia Creators</span>
+  <span>Alternative Creators</span>
+</div>
 
 ---
 
-## Join the Collective
+<div class="grc-cta-panel">
+  <h2>Join the Collective</h2>
 
-We are currently building the first phase of Glass Rose Collective.
+  <p>
+    We are currently building the first phase of Glass Rose Collective.
+  </p>
 
-Artist submissions, collaborations, publishing initiatives, community features, and creator showcases are coming soon.
+  <p>
+    Artist submissions, collaborative projects, publishing initiatives, and creator showcases are expanding soon.
+  </p>
 
-For inquiries, partnerships, or early interest:
-
-[Contact Us]({{ '/contact/' | relative_url }})
+  <a class="grc-button" href="{{ '/contact/' | relative_url }}">Start a Conversation</a>
+</div>
