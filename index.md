@@ -60,6 +60,42 @@ title: Glass Rose Collective
   </div>
 </div>
 
+<div class="grc-manifesto-divider"></div>
+
+<h2>From the Collective</h2>
+
+<div class="grc-showcase-grid">
+  <section class="grc-showcase-card">
+    <span class="grc-showcase-label">Emerging Project</span>
+
+    <h3>Static Bloom</h3>
+
+    <p>
+      Experimental multimedia collaboration blending music, photography, emotional storytelling, and alternative visual identity.
+    </p>
+  </section>
+
+  <section class="grc-showcase-card">
+    <span class="grc-showcase-label">Featured Atmosphere</span>
+
+    <h3>Afterlight Sessions</h3>
+
+    <p>
+      Indie-focused creative development initiative centered around emotionally honest artistic expression and sustainable creator growth.
+    </p>
+  </section>
+
+  <section class="grc-showcase-card">
+    <span class="grc-showcase-label">Creative Writing</span>
+
+    <h3>Roseglass Letters</h3>
+
+    <p>
+      Editorial-style memoir, poetry, and reflective storytelling focused on survival, humanity, identity, and connection.
+    </p>
+  </section>
+</div>
+
 <div class="grc-dark-section">
   <h2>Built Outside the Algorithm</h2>
 
@@ -102,14 +138,14 @@ title: Glass Rose Collective
 
 <div class="grc-editorial-section">
   <div class="grc-editorial-panel">
-    <h2>Why Glass Rose Exists</h2>
+    <h2>Currently Building</h2>
 
     <p>
-      Too many creative spaces have become transactional, disposable, and emotionally hollow.
+      Glass Rose Collective is actively expanding creator showcases, collaborative publishing systems, multimedia support, indie music infrastructure, and future creator partnerships.
     </p>
 
     <p>
-      We wanted to build something smaller, more intentional, more collaborative, and more human.
+      The collective is intentionally growing slowly, carefully, and creator-first.
     </p>
   </div>
 
