@@ -8,39 +8,68 @@ permalink: /news/
   <h1>Updates, releases, development progress, and collective news.</h1>
 
   <p>
-    Glass Rose Collective is actively evolving. This page will track major updates, creator initiatives, releases, and future expansion.
+    Glass Rose Collective is actively evolving. This page tracks major updates, creator initiatives, ecosystem expansion, and future development.
   </p>
 </div>
 
 # What’s New
 
-## May 2026 — Foundation Phase Complete
+## May 2026 — Phase 3 Ecosystem Expansion
 
-Glass Rose Collective has completed its initial foundation phase, including:
+### Feature
+- Added dedicated Projects page for showcases, releases, collaborations, and future collective initiatives.
 
-- core site architecture
-- branding and visual identity
-- foundational pages
-- responsive design framework
-- publishing and collective structure
-- creator-focused service outlines
+### Enhancement
+- Expanded About page with deeper mission identity, creator philosophy, and transparency.
 
-Additional creator systems, showcases, and collaborative features are currently in development.
+### Enhancement
+- Upgraded Contact page into creator inquiry pathways and collaboration architecture.
+
+### Enhancement
+- Expanded homepage ecosystem atmosphere and editorial identity.
+
+### Enhancement
+- Added creator showcase atmosphere systems and editorial structure to the Artists page.
+
+### Design
+- Introduced showcase cards, manifesto dividers, editorial atmosphere sections, and living ecosystem styling.
+
+### Navigation
+- Added Projects navigation structure and expanded footer navigation links.
+
+---
+
+## May 2026 — Foundation & Identity Phase Complete
+
+### Feature
+- Established core Glass Rose Collective site architecture.
+
+### Feature
+- Added foundational pages including Artists, Services, Collective, About, Contact, and News.
+
+### Enhancement
+- Built responsive indie editorial visual system and creator-focused atmosphere.
+
+### Enhancement
+- Added collaborative collective identity, manifesto sections, and creator ecosystem structure.
+
+### Accessibility
+- Improved mobile responsiveness, spacing rhythm, readability, and responsive layout stability.
+
+### Design
+- Developed stained-glass inspired visual identity, banner integration, and alternative editorial atmosphere.
 
 ---
 
 ## Upcoming Features
 
-Planned future additions include:
-
-- featured artist pages
-- creator showcases
+- creator profile systems
+- editorial journal expansion
+- artist showcases
 - collaborative publishing projects
-- artist resources
-- submission systems
-- multimedia support
-- collective partnerships
+- multimedia releases
 - creator networking initiatives
+- future submission systems
 
 ---
 
@@ -48,8 +77,8 @@ Planned future additions include:
   <h2>Glass Rose Collective is still growing.</h2>
 
   <p>
-    We are building intentionally, carefully, and creator-first.
+    Creator showcases, collaborative publishing systems, editorial projects, and long-term artistic infrastructure continue to expand.
   </p>
 
-  <a class="grc-button" href="{{ '/contact/' | relative_url }}">Connect With Us</a>
+  <a class="grc-button" href="{{ '/projects/' | relative_url }}">Explore Projects</a>
 </div>
