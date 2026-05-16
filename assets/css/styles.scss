@@ -51,9 +51,6 @@ h6,
 }
 
 .site-header {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
   background: rgba(245, 240, 232, 0.97);
   border-top: 4px solid var(--grc-rose);
   border-bottom: 1px solid var(--grc-border);
@@ -64,7 +61,7 @@ h6,
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0.9rem 0 0.45rem;
+  padding: 1rem 0 0.5rem;
 }
 
 .grc-header-logo {
@@ -80,68 +77,19 @@ h6,
 }
 
 .site-nav {
-  position: static !important;
-  float: none !important;
-  border: 0 !important;
-  background: transparent !important;
-  border-radius: 0 !important;
-  box-shadow: none !important;
-  line-height: inherit !important;
-  width: auto !important;
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 1.35rem;
-  padding: 0.7rem 0 1rem;
+  gap: 1.5rem;
+  padding-bottom: 1rem;
 }
 
 .page-link {
-  display: inline-block !important;
   color: var(--grc-charcoal) !important;
   text-decoration: none;
   font-weight: 600;
-  margin: 0 !important;
-  line-height: 1.2 !important;
 }
 
 .page-link:hover {
-  color: var(--grc-rose) !important;
-}
-
-.grc-dropdown {
-  position: relative;
-}
-
-.grc-dropdown-menu {
-  position: absolute;
-  top: calc(100% + 0.55rem);
-  left: 50%;
-  transform: translateX(-50%);
-  min-width: 230px;
-  background: rgba(245,240,232,0.98);
-  border: 1px solid var(--grc-border);
-  border-radius: 18px;
-  box-shadow: 0 18px 40px rgba(0,0,0,0.12);
-  padding: 0.6rem;
-  display: none;
-  z-index: 1001;
-}
-
-.grc-dropdown:hover .grc-dropdown-menu {
-  display: flex;
-  flex-direction: column;
-}
-
-.grc-dropdown-menu a {
-  color: var(--grc-charcoal) !important;
-  text-decoration: none !important;
-  padding: 0.8rem 1rem;
-  border-radius: 12px;
-}
-
-.grc-dropdown-menu a:hover {
-  background: rgba(154,57,70,0.08);
   color: var(--grc-rose) !important;
 }
 
@@ -160,11 +108,10 @@ h6,
 }
 
 .grc-page-hero h1 {
-  font-size: clamp(2rem, 4vw, 4.2rem);
-  line-height: 1.08;
+  font-size: clamp(2rem, 4vw, 4rem);
+  line-height: 1.15;
   color: white;
   margin-bottom: 1.4rem;
-  max-width: 900px;
 }
 
 .grc-page-hero p {
@@ -177,7 +124,7 @@ h6,
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
-  margin-top: 2.2rem;
+  margin-top: 2rem;
 }
 
 main a.grc-button,
@@ -191,13 +138,11 @@ main a.grc-button-secondary {
   font-weight: 700;
   line-height: 1.2;
   text-decoration: none !important;
-  transition: all 0.22s ease;
 }
 
 main a.grc-button {
   background: var(--grc-rose) !important;
   color: white !important;
-  box-shadow: 0 8px 22px rgba(154,57,70,0.24);
 }
 
 main a.grc-button-secondary {
@@ -225,11 +170,6 @@ main a.grc-button-secondary {
   margin-top: 0;
   margin-bottom: 1rem;
   color: var(--grc-rose);
-}
-
-.grc-service-card p {
-  font-size: 1.02rem;
-  line-height: 1.9;
 }
 
 .grc-split-section {
@@ -288,109 +228,36 @@ main a:not(.grc-button):not(.grc-button-secondary) {
 }
 
 @media (max-width: 768px) {
-  .wrapper {
-    padding-left: 1.2rem;
-    padding-right: 1.2rem;
-  }
-
-  .grc-header-brand-row {
-    padding: 0.65rem 0 0.2rem;
-  }
-
   .grc-header-logo {
-    width: 100%;
-    max-width: 360px;
+    max-width: 420px;
   }
 
   .site-nav {
-    position: static !important;
-    float: none !important;
-    display: grid !important;
-    grid-template-columns: repeat(3, auto);
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    gap: 0.8rem 1.2rem;
-    padding: 0.55rem 0 0.85rem !important;
-    margin: 0 auto !important;
-    border: 0 !important;
-    background: transparent !important;
-    border-radius: 0 !important;
-    box-shadow: none !important;
-    width: auto !important;
-    font-size: 0.92rem;
-  }
-
-  .site-nav .page-link {
-    display: inline-block !important;
-    padding: 0 !important;
-    margin: 0 !important;
-    line-height: 1.2 !important;
-  }
-
-  .grc-dropdown-menu {
-    display: none !important;
-  }
-
-  .grc-page-hero,
-  .grc-dark-section {
-    border-radius: 28px;
-    padding: 2.4rem 1.8rem;
-    margin: 2.2rem 0;
+    gap: 1rem;
+    padding-bottom: 0.8rem;
   }
 
   .grc-page-hero h1 {
-    font-size: clamp(2.2rem, 8vw, 3rem);
-    line-height: 1.18;
-    letter-spacing: 0.01em;
-    margin-bottom: 1.2rem;
+    font-size: clamp(2rem, 7vw, 3rem);
+    line-height: 1.2;
   }
 
-  .grc-page-hero p {
-    font-size: 1.02rem;
-    line-height: 1.9;
-  }
-
-  .grc-hero-buttons {
-    gap: 1rem;
-    margin-top: 2rem;
+  .grc-page-hero,
+  .grc-dark-section,
+  .grc-service-card,
+  .grc-cta-panel {
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
   }
 
   main a.grc-button,
   main a.grc-button-secondary {
     width: 100%;
-    max-width: none;
-  }
-
-  .grc-card-grid {
-    gap: 1.75rem;
-    margin: 3rem 0;
-  }
-
-  .grc-service-card {
-    padding: 2.2rem 1.8rem;
-  }
-
-  .grc-service-card p {
-    font-size: 1rem;
-    line-height: 1.95;
-  }
-
-  .grc-split-section {
-    gap: 2rem;
-    margin: 4.5rem 0;
-  }
-
-  .grc-quote-panel {
-    padding: 2.4rem 2rem;
-  }
-
-  .grc-cta-panel {
-    padding: 2.5rem 1.8rem;
-    margin: 4.5rem 0;
   }
 
   .site-footer {
-    font-size: 0.98rem;
-    line-height: 1.9;
+    font-size: 0.95rem;
   }
 }
