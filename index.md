@@ -3,10 +3,6 @@ layout: home
 title: Glass Rose Collective
 ---
 
-# Art deserves more than algorithms.
-
-Glass Rose Collective exists to help independent creators publish, grow, connect, and be seen without losing themselves in the process.
-
 We are a collective-first creative ecosystem focused on supporting artists, writers, musicians, photographers, designers, and creators navigating a world that often treats art like disposable content.
 
 Whether we help directly or connect artists with trusted collaborators, our goal remains the same:
@@ -55,4 +51,4 @@ Artist submissions, collaborations, community features, and creator showcases ar
 
 For inquiries, partnerships, or early interest:
 
-[Contact Us](/contact/)
+[Contact Us]({{ '/contact/' | relative_url }})
