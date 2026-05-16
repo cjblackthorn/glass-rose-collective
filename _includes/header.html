@@ -1,8 +1,8 @@
 <header class="site-header" role="banner">
   <div class="wrapper site-header-wrapper">
-    <a class="site-title grc-brand" rel="author" href="{{ "/" | relative_url }}">
+    <a class="site-title grc-brand" rel="author" href="{{ '/' | relative_url }}">
       <img
-        src="/assets/images/branding/grc-logo-notext.PNG"
+        src="{{ '/assets/images/branding/grc-logo-notext.PNG' | relative_url }}"
         alt="Glass Rose Collective logo"
         class="grc-nav-logo"
       >
@@ -11,12 +11,12 @@
     </a>
 
     <nav class="site-nav">
-      <a class="page-link" href="/artists/">Artists</a>
-      <a class="page-link" href="/services/">Services</a>
-      <a class="page-link" href="/collective/">Collective</a>
-      <a class="page-link" href="/news/">News</a>
-      <a class="page-link" href="/about/">About</a>
-      <a class="page-link" href="/contact/">Contact</a>
+      <a class="page-link" href="{{ '/artists/' | relative_url }}">Artists</a>
+      <a class="page-link" href="{{ '/services/' | relative_url }}">Services</a>
+      <a class="page-link" href="{{ '/collective/' | relative_url }}">Collective</a>
+      <a class="page-link" href="{{ '/news/' | relative_url }}">News</a>
+      <a class="page-link" href="{{ '/about/' | relative_url }}">About</a>
+      <a class="page-link" href="{{ '/contact/' | relative_url }}">Contact</a>
     </nav>
   </div>
 </header>
