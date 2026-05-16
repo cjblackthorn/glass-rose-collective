@@ -61,32 +61,32 @@ h6,
   box-shadow: 0 2px 12px var(--grc-shadow);
 }
 
-.site-header-wrapper {
+.grc-header-brand-row {
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
-  gap: 2rem;
-  padding: 0.8rem 0;
+  padding: 0.75rem 0 0.25rem;
+}
+
+.grc-header-logo {
+  display: block;
+  width: min(100%, 700px);
+  height: auto;
 }
 
 .grc-brand {
   display: flex;
-  align-items: center;
+  justify-content: center;
   text-decoration: none;
-}
-
-.grc-nav-logo {
-  width: auto;
-  height: 52px;
-  object-fit: contain;
-  display: block;
 }
 
 .site-nav {
   display: flex;
-  gap: 1.25rem;
-  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 0.5rem 0 1rem;
 }
 
 .page-link {
@@ -106,7 +106,8 @@ h6,
 .grc-dropdown-menu {
   position: absolute;
   top: calc(100% + 0.5rem);
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
   min-width: 230px;
   background: rgba(245,240,232,0.98);
   border: 1px solid var(--grc-border);
@@ -127,7 +128,6 @@ h6,
   text-decoration: none !important;
   padding: 0.75rem 0.9rem;
   border-radius: 12px;
-  transition: all 0.2s ease;
 }
 
 .grc-dropdown-menu a:hover {
@@ -142,12 +142,10 @@ h6,
     radial-gradient(circle at top left, rgba(154,57,70,0.24), transparent 40%),
     radial-gradient(circle at bottom right, rgba(124,119,82,0.16), transparent 35%),
     var(--grc-charcoal);
-
   color: white;
   border-radius: 28px;
   padding: clamp(2rem, 4vw, 5rem);
   margin: 2rem 0;
-  box-shadow: 0 20px 45px var(--grc-shadow-heavy);
 }
 
 .grc-page-hero h1 {
@@ -155,8 +153,6 @@ h6,
   line-height: 1.05;
   color: white;
   margin-bottom: 1.5rem;
-  word-break: normal;
-  overflow-wrap: break-word;
 }
 
 .grc-page-hero p {
@@ -183,29 +179,17 @@ main a.grc-button-secondary {
   font-weight: 700;
   line-height: 1.2;
   text-decoration: none !important;
-  transition: all 0.2s ease;
 }
 
 main a.grc-button {
   background: var(--grc-rose) !important;
   color: white !important;
-  box-shadow: 0 10px 25px rgba(154,57,70,0.28);
-}
-
-main a.grc-button:hover {
-  background: #7b2d38 !important;
-  transform: translateY(-2px);
 }
 
 main a.grc-button-secondary {
   border: 1px solid rgba(255,255,255,0.35) !important;
   background: rgba(255,255,255,0.08) !important;
   color: white !important;
-}
-
-main a.grc-button-secondary:hover {
-  background: rgba(255,255,255,0.18) !important;
-  transform: translateY(-2px);
 }
 
 .grc-card-grid {
@@ -217,17 +201,9 @@ main a.grc-button-secondary:hover {
 
 .grc-service-card {
   background: rgba(255,255,255,0.72);
-  backdrop-filter: blur(10px);
   border: 1px solid rgba(216,208,197,0.9);
   border-radius: 24px;
   padding: 2rem;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.06);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
-
-.grc-service-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 18px 40px rgba(0,0,0,0.12);
 }
 
 .grc-service-card h2 {
@@ -239,7 +215,6 @@ main a.grc-button-secondary:hover {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 2rem;
-  align-items: stretch;
   margin: 4rem 0;
 }
 
@@ -251,18 +226,6 @@ main a.grc-button-secondary:hover {
   border-radius: 24px;
   padding: 2rem;
   color: white;
-  box-shadow: 0 18px 40px rgba(0,0,0,0.14);
-}
-
-.grc-quote-panel blockquote {
-  border: 0;
-  background: transparent;
-  color: white;
-  font-size: 1.5rem;
-  line-height: 1.4;
-  font-style: italic;
-  margin: 0;
-  padding: 0;
 }
 
 .grc-tag-grid {
@@ -275,7 +238,6 @@ main a.grc-button-secondary:hover {
 .grc-tag-grid span {
   background: rgba(154,57,70,0.08);
   border: 1px solid rgba(154,57,70,0.14);
-  color: var(--grc-charcoal);
   border-radius: 999px;
   padding: 0.7rem 1rem;
   font-weight: 600;
@@ -287,37 +249,10 @@ main a.grc-button-secondary:hover {
   border-radius: 28px;
   padding: clamp(2rem, 4vw, 4rem);
   margin: 4rem 0;
-  box-shadow: 0 14px 40px rgba(0,0,0,0.08);
-}
-
-.grc-cta-panel h2 {
-  margin-top: 0;
-}
-
-h1 {
-  font-size: 3rem;
-}
-
-h2 {
-  margin-top: 2rem;
-  color: var(--grc-rose);
-  font-size: 2.2rem;
 }
 
 main a:not(.grc-button):not(.grc-button-secondary) {
   color: var(--grc-rose) !important;
-  text-decoration: underline;
-  text-decoration-color: rgba(154,57,70,0.35);
-  text-underline-offset: 3px;
-}
-
-main a:not(.grc-button):not(.grc-button-secondary):hover {
-  color: #6f1f2d !important;
-}
-
-hr {
-  border-color: var(--grc-border);
-  margin: 4rem 0;
 }
 
 .site-footer {
@@ -330,67 +265,25 @@ hr {
   color: #4f6fbf;
 }
 
-.footer-col-wrapper {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
-}
-
-.grc-footer-bottom {
-  margin-top: 2rem;
-  padding-top: 1rem;
-  border-top: 1px solid var(--grc-border);
-  text-align: center;
-  opacity: 0.8;
-}
-
 @media (max-width: 768px) {
-  .site-header-wrapper {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .grc-nav-logo {
-    height: 42px;
-    max-width: 240px;
+  .grc-header-logo {
+    width: 100%;
+    max-width: 420px;
   }
 
   .site-nav {
-    justify-content: center;
     gap: 1rem;
+    padding-top: 0.5rem;
   }
 
   .grc-dropdown-menu {
     position: static;
-    margin-top: 0.4rem;
-  }
-
-  .grc-page-hero,
-  .grc-dark-section,
-  .grc-cta-panel,
-  .grc-service-card,
-  .grc-quote-panel {
-    border-radius: 22px;
+    transform: none;
+    margin-top: 0.5rem;
   }
 
   .grc-page-hero h1 {
     font-size: clamp(1.9rem, 7vw, 2.9rem);
     line-height: 1.08;
-    letter-spacing: 0.01em;
-  }
-
-  .grc-page-hero p {
-    font-size: 1rem;
-  }
-
-  .grc-hero-buttons {
-    justify-content: center;
-  }
-
-  main a.grc-button,
-  main a.grc-button-secondary {
-    width: 100%;
-    max-width: 320px;
   }
 }
