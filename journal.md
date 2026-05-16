@@ -28,30 +28,30 @@ permalink: /journal/
   </div>
 </div>
 
+<div class="grc-manifesto-divider"></div>
+
+<h2>Latest Journal Entries</h2>
+
 <div class="grc-showcase-grid">
-  <section class="grc-showcase-card">
-    <span class="grc-showcase-label">Creator Spotlight</span>
-    <h3>Featured Voices</h3>
-    <p>
-      Long-form features centered around artists, identity, creative process, and emotionally honest storytelling.
-    </p>
-  </section>
+  {% assign sorted_journal = site.journal | sort: 'date' | reverse %}
 
-  <section class="grc-showcase-card">
-    <span class="grc-showcase-label">Editorial</span>
-    <h3>Creative Reflection</h3>
-    <p>
-      Essays and commentary exploring independent art, sustainability, creator culture, and alternative creative ecosystems.
-    </p>
-  </section>
+  {% for entry in sorted_journal %}
+    <section class="grc-showcase-card">
+      {% if entry.category %}
+        <span class="grc-showcase-label">{{ entry.category }}</span>
+      {% endif %}
 
-  <section class="grc-showcase-card">
-    <span class="grc-showcase-label">Projects</span>
-    <h3>Release Updates</h3>
-    <p>
-      Future release announcements, collaborative showcases, and ecosystem development updates.
-    </p>
-  </section>
+      <h3>
+        <a href="{{ entry.url | relative_url }}">{{ entry.title }}</a>
+      </h3>
+
+      {% if entry.date %}
+        <p><strong>{{ entry.date | date: "%B %d, %Y" }}</strong></p>
+      {% endif %}
+
+      <p>{{ entry.content | strip_html | truncatewords: 30 }}</p>
+    </section>
+  {% endfor %}
 </div>
 
 <div class="grc-dark-section">
