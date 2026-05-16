@@ -76,20 +76,23 @@ h6,
   text-decoration: none;
 }
 
-.site-nav {
+.grc-main-nav {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 1.5rem;
   padding-bottom: 1rem;
+  position: relative;
 }
 
-.page-link {
+.grc-nav-link {
   color: var(--grc-charcoal) !important;
   text-decoration: none;
   font-weight: 600;
+  transition: color 0.2s ease;
 }
 
-.page-link:hover {
+.grc-nav-link:hover {
   color: var(--grc-rose) !important;
 }
 
@@ -98,35 +101,37 @@ h6,
 }
 
 .grc-dropdown-menu {
-  position: absolute;
-  top: calc(100% + 0.55rem);
-  left: 50%;
-  transform: translateX(-50%);
-  min-width: 230px;
-  background: rgba(245,240,232,0.98);
-  border: 1px solid var(--grc-border);
-  border-radius: 18px;
-  box-shadow: 0 18px 40px rgba(0,0,0,0.12);
-  padding: 0.6rem;
   display: none;
-  z-index: 1001;
 }
 
-.grc-dropdown:hover .grc-dropdown-menu {
-  display: flex;
-  flex-direction: column;
-}
+@media (min-width: 769px) {
+  .grc-dropdown:hover .grc-dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: calc(100% + 0.55rem);
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 230px;
+    background: rgba(245,240,232,0.98);
+    border: 1px solid var(--grc-border);
+    border-radius: 18px;
+    box-shadow: 0 18px 40px rgba(0,0,0,0.12);
+    padding: 0.6rem;
+    z-index: 1001;
+  }
 
-.grc-dropdown-menu a {
-  color: var(--grc-charcoal) !important;
-  text-decoration: none !important;
-  padding: 0.8rem 1rem;
-  border-radius: 12px;
-}
+  .grc-dropdown-menu a {
+    color: var(--grc-charcoal) !important;
+    text-decoration: none !important;
+    padding: 0.8rem 1rem;
+    border-radius: 12px;
+  }
 
-.grc-dropdown-menu a:hover {
-  background: rgba(154,57,70,0.08);
-  color: var(--grc-rose) !important;
+  .grc-dropdown-menu a:hover {
+    background: rgba(154,57,70,0.08);
+    color: var(--grc-rose) !important;
+  }
 }
 
 .grc-page-hero,
@@ -268,15 +273,14 @@ main a:not(.grc-button):not(.grc-button-secondary) {
     max-width: 420px;
   }
 
-  .site-nav {
+  .grc-main-nav {
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
     padding-bottom: 0.8rem;
   }
 
-  .grc-dropdown-menu,
-  .grc-dropdown:hover .grc-dropdown-menu {
+  .grc-dropdown-menu {
     display: none !important;
   }
 
