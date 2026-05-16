@@ -9,12 +9,47 @@
     </a>
 
     <nav class="site-nav">
-      <a class="page-link" href="{{ '/artists/' | relative_url }}">Artists</a>
-      <a class="page-link" href="{{ '/services/' | relative_url }}">Services</a>
-      <a class="page-link" href="{{ '/collective/' | relative_url }}">Collective</a>
-      <a class="page-link" href="{{ '/news/' | relative_url }}">News</a>
-      <a class="page-link" href="{{ '/about/' | relative_url }}">About</a>
-      <a class="page-link" href="{{ '/contact/' | relative_url }}">Contact</a>
+      <div class="grc-dropdown">
+        <a class="page-link" href="{{ '/artists/' | relative_url }}">Artists</a>
+        <div class="grc-dropdown-menu">
+          <a href="{{ '/artists/' | relative_url }}">Featured Artists</a>
+          <a href="{{ '/artists/' | relative_url }}">Bands</a>
+          <a href="{{ '/artists/' | relative_url }}">Writers</a>
+        </div>
+      </div>
+
+      <div class="grc-dropdown">
+        <a class="page-link" href="{{ '/services/' | relative_url }}">Services</a>
+        <div class="grc-dropdown-menu">
+          <a href="{{ '/services/' | relative_url }}">Publishing</a>
+          <a href="{{ '/services/' | relative_url }}">Distribution</a>
+          <a href="{{ '/services/' | relative_url }}">Representation</a>
+        </div>
+      </div>
+
+      <div class="grc-dropdown">
+        <a class="page-link" href="{{ '/collective/' | relative_url }}">Collective</a>
+        <div class="grc-dropdown-menu">
+          <a href="{{ '/collective/' | relative_url }}">Mission</a>
+          <a href="{{ '/collective/' | relative_url }}">Philosophy</a>
+        </div>
+      </div>
+
+      <div class="grc-dropdown">
+        <a class="page-link" href="{{ '/news/' | relative_url }}">News</a>
+        <div class="grc-dropdown-menu">
+          <a href="{{ '/news/' | relative_url }}">Updates</a>
+          <a href="{{ '/news/' | relative_url }}">Releases</a>
+        </div>
+      </div>
+
+      <div class="grc-dropdown">
+        <a class="page-link" href="{{ '/about/' | relative_url }}">About</a>
+        <div class="grc-dropdown-menu">
+          <a href="{{ '/about/' | relative_url }}">Our Story</a>
+          <a href="{{ '/contact/' | relative_url }}">Contact</a>
+        </div>
+      </div>
     </nav>
   </div>
 </header>
