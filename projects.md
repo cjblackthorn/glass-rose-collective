@@ -8,7 +8,7 @@ permalink: /projects/
   <h1>Projects, releases, showcases, and collaborative work in development.</h1>
 
   <p>
-    Glass Rose Collective is being built as a living creative ecosystem. This page will hold upcoming publications, music projects, creator showcases, multimedia releases, and collaborative initiatives.
+    Glass Rose Collective is being built as a living creative ecosystem. This page holds publications, music projects, creator showcases, multimedia releases, and collaborative initiatives.
   </p>
 </div>
 
@@ -34,38 +34,26 @@ permalink: /projects/
 
 <div class="grc-manifesto-divider"></div>
 
-<h2>Currently Building</h2>
+<h2>Featured Projects</h2>
 
 <div class="grc-showcase-grid">
-  <section class="grc-showcase-card">
-    <span class="grc-showcase-label">Publishing</span>
+  {% for project in site.projects %}
+    <section class="grc-showcase-card">
+      {% if project.status %}
+        <span class="grc-showcase-label">{{ project.status }}</span>
+      {% endif %}
 
-    <h3>Independent Releases</h3>
+      <h3>
+        <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
+      </h3>
 
-    <p>
-      Book, poetry, memoir, zine, and multimedia publication pathways for creators building outside traditional systems.
-    </p>
-  </section>
+      {% if project.category %}
+        <p><strong>{{ project.category }}</strong></p>
+      {% endif %}
 
-  <section class="grc-showcase-card">
-    <span class="grc-showcase-label">Music</span>
-
-    <h3>Indie Music Support</h3>
-
-    <p>
-      Support for alternative, emo, punk, experimental, and emotionally honest music projects preparing for release and distribution.
-    </p>
-  </section>
-
-  <section class="grc-showcase-card">
-    <span class="grc-showcase-label">Showcase</span>
-
-    <h3>Featured Creators</h3>
-
-    <p>
-      Future creator profiles, project spotlights, interviews, visual features, and collective storytelling.
-    </p>
-  </section>
+      <p>{{ project.content | strip_html | truncatewords: 28 }}</p>
+    </section>
+  {% endfor %}
 </div>
 
 <div class="grc-dark-section">
