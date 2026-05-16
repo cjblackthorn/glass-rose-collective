@@ -16,30 +16,49 @@ title: Glass Rose Collective
   </div>
 </div>
 
-<div class="grc-card-grid">
-  <section class="grc-service-card">
+<div class="grc-feature-grid">
+  <section class="grc-feature-tile">
     <h2>Publishing</h2>
     <p>
-      Support for books, poetry, music, multimedia projects, and collaborative releases.
+      Support for books, poetry, music, multimedia projects, collaborative releases, and independent creator publishing.
     </p>
   </section>
 
-  <section class="grc-service-card">
+  <section class="grc-feature-tile">
     <h2>Distribution</h2>
     <p>
-      Guidance for creators navigating publishing platforms, release workflows, and sustainable distribution strategies.
+      Guidance for creators navigating release platforms, publishing workflows, audience building, and sustainable distribution strategies.
     </p>
   </section>
 
-  <section class="grc-service-card">
+  <section class="grc-feature-tile">
     <h2>Representation Support</h2>
     <p>
-      Creator-focused networking, branding guidance, referrals, and collaborative opportunity support.
+      Creator-focused networking, branding guidance, referrals, collaboration support, and long-term creative relationship building.
     </p>
   </section>
 </div>
 
----
+<div class="grc-editorial-section">
+  <div class="grc-editorial-statement">
+    <h2>Creators are not disposable.</h2>
+
+    <p>
+      Not every artist wants to become content.
+      Not every project should be flattened into trends, algorithms, and short attention spans.
+    </p>
+  </div>
+
+  <div class="grc-editorial-panel">
+    <p>
+      Glass Rose Collective exists to help creators grow without erasing themselves in the process.
+    </p>
+
+    <p>
+      We believe creative work still deserves humanity, sustainability, emotional honesty, and real connection.
+    </p>
+  </div>
+</div>
 
 <div class="grc-split-section">
   <div>
@@ -50,12 +69,11 @@ title: Glass Rose Collective
     </p>
 
     <p>
-      Not every artist wants to become content.
-      Not every project should be optimized into something hollow.
+      Glass Rose Collective is intentionally collaborative, artist-focused, and community-oriented.
     </p>
 
     <p>
-      Glass Rose Collective exists to help creators grow without erasing themselves in the process.
+      We support creators through publishing, networking, creative development, and trusted collaborative connections.
     </p>
   </div>
 
@@ -65,8 +83,6 @@ title: Glass Rose Collective
     </blockquote>
   </div>
 </div>
-
----
 
 <h2>Who We Support</h2>
 
@@ -81,17 +97,15 @@ title: Glass Rose Collective
   <span>Alternative Creators</span>
 </div>
 
----
-
 <div class="grc-cta-panel">
   <h2>Join the Collective</h2>
 
   <p>
-    We are currently building the first phase of Glass Rose Collective.
+    Glass Rose Collective is actively expanding creator support systems, collaborative initiatives, showcases, and publishing infrastructure.
   </p>
 
   <p>
-    Artist submissions, collaborative projects, publishing initiatives, and creator showcases are expanding soon.
+    We cannot directly take on every project, but we work to help creators find pathways, resources, and trusted connections whenever possible.
   </p>
 
   <a class="grc-button" href="{{ '/contact/' | relative_url }}">Start a Conversation</a>
