@@ -32,27 +32,38 @@ permalink: /artists/
   </div>
 </div>
 
-<h2>Featured Creators</h2>
+<div class="grc-manifesto-divider"></div>
 
-<div class="grc-feature-grid">
-  <section class="grc-feature-tile">
-    <h2>Emerging Writers</h2>
+<h2>Featured Creator Atmosphere</h2>
+
+<div class="grc-showcase-grid">
+  <section class="grc-showcase-card">
+    <span class="grc-showcase-label">Emerging Voice</span>
+
+    <h3>Midnight Static</h3>
+
     <p>
-      Poetry, memoir, alternative fiction, emotionally honest storytelling, underground publishing, and independent creative voices.
+      Alternative indie project blending emotional storytelling, atmospheric sound, and raw vulnerability.
     </p>
   </section>
 
-  <section class="grc-feature-tile">
-    <h2>Musicians & Bands</h2>
+  <section class="grc-showcase-card">
+    <span class="grc-showcase-label">Visual Artist</span>
+
+    <h3>Glasslight Studio</h3>
+
     <p>
-      Indie, emo, punk, alternative, experimental, and emotionally-driven music projects exploring authentic creative identity.
+      Editorial-inspired visual work exploring identity, memory, softness, and fragmented emotional landscapes.
     </p>
   </section>
 
-  <section class="grc-feature-tile">
-    <h2>Visual & Multimedia Artists</h2>
+  <section class="grc-showcase-card">
+    <span class="grc-showcase-label">Writer</span>
+
+    <h3>Roseveil Letters</h3>
+
     <p>
-      Photography, visual design, mixed media, collaborative art, editorial aesthetics, and alternative creative presentation.
+      Memoir, poetry, and emotionally honest long-form writing centered around survival, humanity, and connection.
     </p>
   </section>
 </div>
@@ -75,24 +86,20 @@ permalink: /artists/
 
 <div class="grc-split-section">
   <div>
-    <h2>Collaboration & Networking</h2>
+    <h2>Currently Building</h2>
 
     <p>
-      Some creators may work directly with Glass Rose Collective.
+      Glass Rose Collective is actively expanding creator showcases, collaborative opportunities, publication systems, and future artist support infrastructure.
     </p>
 
     <p>
-      Others may simply need referrals, publishing guidance, creative support, networking opportunities, or trusted collaborative connections.
-    </p>
-
-    <p>
-      If we cannot directly help with a project, we try to connect creators with trusted resources whenever possible.
+      The collective is intentionally growing slowly, carefully, and creator-first.
     </p>
   </div>
 
   <div class="grc-quote-panel">
     <blockquote>
-      “Help artists build something meaningful without losing themselves in the process.”
+      “Art still deserves humanity.”
     </blockquote>
   </div>
 </div>
