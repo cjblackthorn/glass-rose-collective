@@ -3,22 +3,52 @@ layout: home
 title: Glass Rose Collective
 ---
 
-We are a collective-first creative ecosystem focused on supporting artists, writers, musicians, photographers, designers, and creators navigating a world that often treats art like disposable content.
+Glass Rose Collective supports artists of all types through publishing, distribution, representation support, creative networking, and long-term creator development.
 
-Whether we help directly or connect artists with trusted collaborators, our goal remains the same:
+We provide resources for independent and self-publishing creators while also operating as a publishing house for artists and projects aligned with the collective.
 
-> Help creators build something real.
+We support:
+
+- writers
+- musicians
+- bands
+- photographers
+- visual artists
+- designers
+- multimedia creators
+- independent and alternative artists
+
+Whether helping creators self-publish or working directly alongside them through the collective, our goal remains the same:
+
+> Help artists build something real without losing themselves in the process.
+
+Glass Rose Collective also provides band representation and creator support connections focused on helping artists grow sustainably.
+
+We are not talent agents.
+
+Instead, we focus on:
+
+- publishing
+- distribution
+- creator resources
+- networking
+- collaboration
+- branding
+- representation support
+- artist development
 
 ---
 
 ## What We Do
 
-- Indie publishing support
-- Artist representation guidance
+- Self-publishing resources and guidance
+- Publishing house support
+- Distribution assistance
+- Band representation
 - Creative networking and referrals
 - Branding and identity development
 - Collaborative projects
-- Community-focused creative support
+- Community-focused creator support
 - Long-term artist growth strategy
 
 ---
@@ -47,7 +77,7 @@ Featured artist pages and creator spotlights are coming soon.
 
 We are currently building the first phase of Glass Rose Collective.
 
-Artist submissions, collaborations, community features, and creator showcases are coming soon.
+Artist submissions, collaborations, publishing initiatives, community features, and creator showcases are coming soon.
 
 For inquiries, partnerships, or early interest:
 
