@@ -12,64 +12,96 @@ permalink: /artists/
   </p>
 </div>
 
-## Featured Artists
+<div class="grc-editorial-section">
+  <div class="grc-editorial-statement">
+    <h2>Creative people deserve spaces that still feel human.</h2>
 
-Featured artist pages and creator showcases are currently in development.
+    <p>
+      We believe artists deserve opportunities to grow without being flattened into disposable content.
+    </p>
+  </div>
 
-Glass Rose Collective is being built intentionally and carefully so creators can be represented in ways that still feel human.
+  <div class="grc-editorial-panel">
+    <p>
+      Glass Rose Collective is intentionally creator-focused, collaborative, emotionally grounded, and community-oriented.
+    </p>
 
----
+    <p>
+      We support independent creators through publishing guidance, networking, collaboration, creative development, and trusted connections.
+    </p>
+  </div>
+</div>
 
-## Who We Work With
+<h2>Featured Creators</h2>
 
-We support creators across multiple disciplines, including:
+<div class="grc-feature-grid">
+  <section class="grc-feature-tile">
+    <h2>Emerging Writers</h2>
+    <p>
+      Poetry, memoir, alternative fiction, emotionally honest storytelling, underground publishing, and independent creative voices.
+    </p>
+  </section>
 
-- writers
-- poets
-- musicians
-- bands
-- photographers
-- visual artists
-- designers
-- multimedia creators
-- underground and alternative creators
-- disabled creators
-- LGBTQ+ creators
+  <section class="grc-feature-tile">
+    <h2>Musicians & Bands</h2>
+    <p>
+      Indie, emo, punk, alternative, experimental, and emotionally-driven music projects exploring authentic creative identity.
+    </p>
+  </section>
 
----
+  <section class="grc-feature-tile">
+    <h2>Visual & Multimedia Artists</h2>
+    <p>
+      Photography, visual design, mixed media, collaborative art, editorial aesthetics, and alternative creative presentation.
+    </p>
+  </section>
+</div>
 
-## Creative Philosophy
+<h2>Who We Support</h2>
 
-Not every creator wants to become disposable content.
+<div class="grc-tag-grid">
+  <span>Writers</span>
+  <span>Poets</span>
+  <span>Bands</span>
+  <span>Musicians</span>
+  <span>Photographers</span>
+  <span>Visual Artists</span>
+  <span>Designers</span>
+  <span>Multimedia Creators</span>
+  <span>Alternative Creators</span>
+  <span>Disabled Creators</span>
+  <span>LGBTQ+ Creators</span>
+</div>
 
-We believe artists deserve opportunities to build sustainable creative identities without being forced to erase themselves in the process.
+<div class="grc-split-section">
+  <div>
+    <h2>Collaboration & Networking</h2>
 
-Glass Rose Collective is intentionally creator-focused, collaborative, and community-oriented.
+    <p>
+      Some creators may work directly with Glass Rose Collective.
+    </p>
 
----
+    <p>
+      Others may simply need referrals, publishing guidance, creative support, networking opportunities, or trusted collaborative connections.
+    </p>
 
-## Collaboration & Networking
+    <p>
+      If we cannot directly help with a project, we try to connect creators with trusted resources whenever possible.
+    </p>
+  </div>
 
-Some creators may work directly with Glass Rose Collective.
-
-Others may simply need:
-
-- referrals
-- networking
-- publishing guidance
-- collaboration opportunities
-- creative support
-- trusted connections
-
-If we cannot directly help with a project, we try to connect creators with trusted resources whenever possible.
-
----
+  <div class="grc-quote-panel">
+    <blockquote>
+      “Help artists build something meaningful without losing themselves in the process.”
+    </blockquote>
+  </div>
+</div>
 
 <div class="grc-cta-panel">
   <h2>Interested in connecting with the collective?</h2>
 
   <p>
-    Artist showcases, collaborative projects, featured creator pages, and submission systems are expanding soon.
+    Featured creator pages, showcases, collaborative projects, and future submission systems are actively expanding.
   </p>
 
   <a class="grc-button" href="{{ '/contact/' | relative_url }}">Start a Conversation</a>
