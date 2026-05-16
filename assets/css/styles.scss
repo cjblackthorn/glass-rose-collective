@@ -92,48 +92,25 @@ h6,
 
 .grc-hero {
   position: relative;
-  min-height: 78vh;
-  display: flex;
-  align-items: center;
-  overflow: hidden;
   background:
-    linear-gradient(rgba(20,18,18,0.72), rgba(20,18,18,0.72)),
-    radial-gradient(circle at top left, rgba(154,57,70,0.42), transparent 40%),
-    radial-gradient(circle at bottom right, rgba(124,119,82,0.28), transparent 35%),
+    linear-gradient(rgba(20,18,18,0.88), rgba(20,18,18,0.88)),
+    radial-gradient(circle at top left, rgba(154,57,70,0.25), transparent 40%),
+    radial-gradient(circle at bottom right, rgba(124,119,82,0.18), transparent 35%),
     #1f1b1b;
-}
-
-.grc-hero::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-image: url('{{ "/assets/images/branding/grc-banner.PNG" | relative_url }}');
-  background-size: cover;
-  background-position: center;
-  opacity: 0.12;
-  mix-blend-mode: screen;
 }
 
 .grc-hero-overlay {
   position: relative;
   width: 100%;
   padding: 5rem 0;
-  z-index: 1;
 }
 
 .grc-hero-content {
   max-width: 760px;
 }
 
-.grc-hero-logo {
-  width: min(560px, 100%);
-  margin-bottom: 2rem;
-  display: block;
-  filter: drop-shadow(0 10px 25px rgba(0,0,0,0.35));
-}
-
 .grc-hero h1 {
-  font-size: clamp(2.8rem, 7vw, 5.5rem);
+  font-size: clamp(2.8rem, 7vw, 5rem);
   line-height: 0.95;
   color: #fff;
   margin-bottom: 1.5rem;
@@ -274,23 +251,12 @@ hr {
     font-size: 0.95rem;
   }
 
-  .grc-hero {
-    min-height: auto;
-  }
-
   .grc-hero-overlay {
     padding: 4rem 0;
   }
 
   .grc-hero-content {
     text-align: center;
-  }
-
-  .grc-hero-logo {
-    width: 100%;
-    max-width: 420px;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .grc-hero h1 {
