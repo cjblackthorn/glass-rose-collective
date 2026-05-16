@@ -60,6 +60,22 @@ title: Glass Rose Collective
   </div>
 </div>
 
+<div class="grc-dark-section">
+  <h2>Built Outside the Algorithm</h2>
+
+  <p>
+    Not everything meaningful can be optimized.
+  </p>
+
+  <p>
+    Some art is slow. Some stories are messy. Some creators need room to experiment, fail, evolve, disappear for a while, and come back changed.
+  </p>
+
+  <p>
+    Glass Rose Collective was built for creators who still want to make something honest in a world constantly demanding performance.
+  </p>
+</div>
+
 <div class="grc-split-section">
   <div>
     <h2>The Collective Philosophy</h2>
@@ -81,6 +97,30 @@ title: Glass Rose Collective
     <blockquote>
       “Help artists build something real without losing themselves in the process.”
     </blockquote>
+  </div>
+</div>
+
+<div class="grc-editorial-section">
+  <div class="grc-editorial-panel">
+    <h2>Why Glass Rose Exists</h2>
+
+    <p>
+      Too many creative spaces have become transactional, disposable, and emotionally hollow.
+    </p>
+
+    <p>
+      We wanted to build something smaller, more intentional, more collaborative, and more human.
+    </p>
+  </div>
+
+  <div class="grc-editorial-statement">
+    <h2>Art still matters.</h2>
+
+    <p>
+      Real stories matter.
+      Real people matter.
+      Creative identity matters.
+    </p>
   </div>
 </div>
 
