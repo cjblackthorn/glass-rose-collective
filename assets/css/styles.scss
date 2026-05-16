@@ -80,6 +80,14 @@ h6,
 }
 
 .site-nav {
+  position: static !important;
+  float: none !important;
+  border: 0 !important;
+  background: transparent !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  line-height: inherit !important;
+  width: auto !important;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,9 +97,12 @@ h6,
 }
 
 .page-link {
+  display: inline-block !important;
   color: var(--grc-charcoal) !important;
   text-decoration: none;
   font-weight: 600;
+  margin: 0 !important;
+  line-height: 1.2 !important;
 }
 
 .page-link:hover {
@@ -292,12 +303,28 @@ main a:not(.grc-button):not(.grc-button-secondary) {
   }
 
   .site-nav {
-    display: grid;
+    position: static !important;
+    float: none !important;
+    display: grid !important;
     grid-template-columns: repeat(3, auto);
     justify-content: center;
+    align-items: center;
     gap: 0.8rem 1.2rem;
-    padding: 0.4rem 0 0.9rem;
+    padding: 0.55rem 0 0.85rem !important;
+    margin: 0 auto !important;
+    border: 0 !important;
+    background: transparent !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    width: auto !important;
     font-size: 0.92rem;
+  }
+
+  .site-nav .page-link {
+    display: inline-block !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    line-height: 1.2 !important;
   }
 
   .grc-dropdown-menu {
