@@ -123,49 +123,52 @@ h6,
 }
 
 .grc-hero-buttons {
-  display: flex !important;
+  display: flex;
   gap: 1rem;
   flex-wrap: wrap;
   align-items: center;
   margin-top: 2rem;
 }
 
-.grc-button,
-.grc-button-secondary {
+.grc-hero-buttons a {
+  text-decoration: none !important;
+}
+
+main a.grc-button,
+main a.grc-button-secondary {
   display: inline-flex !important;
   align-items: center;
   justify-content: center;
-  width: fit-content;
   min-width: 11rem;
   padding: 0.9rem 1.5rem !important;
   border-radius: 999px;
-  text-decoration: none !important;
-  transition: all 0.2s ease;
   font-weight: 700;
   line-height: 1.2;
+  text-decoration: none !important;
+  transition: all 0.2s ease;
 }
 
-.grc-button {
+main a.grc-button {
   background: var(--grc-rose) !important;
-  color: white !important;
+  color: #fff !important;
   box-shadow: 0 8px 20px rgba(154,57,70,0.25);
 }
 
-.grc-button:hover {
+main a.grc-button:hover {
   background: #7c2835 !important;
-  color: white !important;
+  color: #fff !important;
   transform: translateY(-2px);
 }
 
-.grc-button-secondary {
+main a.grc-button-secondary {
   border: 1px solid rgba(255,255,255,0.45) !important;
-  color: white !important;
   background: rgba(255,255,255,0.1) !important;
+  color: #fff !important;
 }
 
-.grc-button-secondary:hover {
+main a.grc-button-secondary:hover {
   background: rgba(255,255,255,0.18) !important;
-  color: white !important;
+  color: #fff !important;
   transform: translateY(-2px);
 }
 
@@ -192,14 +195,14 @@ blockquote {
   padding: 1rem 1.25rem;
 }
 
-main a {
+main a:not(.grc-button):not(.grc-button-secondary) {
   color: var(--grc-rose);
   text-decoration: underline;
   text-decoration-color: rgba(154,57,70,0.35);
   text-underline-offset: 3px;
 }
 
-main a:hover {
+main a:not(.grc-button):not(.grc-button-secondary):hover {
   color: #6f1f2d;
 }
 
@@ -288,8 +291,8 @@ hr {
     justify-content: center;
   }
 
-  .grc-button,
-  .grc-button-secondary {
+  main a.grc-button,
+  main a.grc-button-secondary {
     min-width: 0;
     width: 100%;
     max-width: 280px;
