@@ -50,8 +50,6 @@ h6,
   padding-right: 1.5rem;
 }
 
-/* Header */
-
 .site-header {
   position: sticky;
   top: 0;
@@ -101,8 +99,6 @@ h6,
   color: var(--grc-rose) !important;
 }
 
-/* Dropdowns */
-
 .grc-dropdown {
   position: relative;
 }
@@ -139,8 +135,6 @@ h6,
   color: var(--grc-rose) !important;
 }
 
-/* Hero Sections */
-
 .grc-page-hero,
 .grc-dark-section {
   background:
@@ -151,25 +145,25 @@ h6,
 
   color: white;
   border-radius: 28px;
-  padding: clamp(3rem, 5vw, 5rem);
-  margin: 3rem 0;
+  padding: clamp(2rem, 4vw, 5rem);
+  margin: 2rem 0;
   box-shadow: 0 20px 45px var(--grc-shadow-heavy);
 }
 
 .grc-page-hero h1 {
-  font-size: clamp(2.6rem, 6vw, 5rem);
-  line-height: 0.95;
+  font-size: clamp(2rem, 4vw, 4.5rem);
+  line-height: 1.05;
   color: white;
   margin-bottom: 1.5rem;
+  word-break: normal;
+  overflow-wrap: break-word;
 }
 
 .grc-page-hero p {
   color: rgba(255,255,255,0.92);
-  font-size: 1.15rem;
+  font-size: 1.05rem;
   max-width: 720px;
 }
-
-/* Buttons */
 
 .grc-hero-buttons {
   display: flex;
@@ -214,8 +208,6 @@ main a.grc-button-secondary:hover {
   transform: translateY(-2px);
 }
 
-/* Card System */
-
 .grc-card-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -242,8 +234,6 @@ main a.grc-button-secondary:hover {
   margin-top: 0;
   color: var(--grc-rose);
 }
-
-/* Split Sections */
 
 .grc-split-section {
   display: grid;
@@ -275,8 +265,6 @@ main a.grc-button-secondary:hover {
   padding: 0;
 }
 
-/* Tags */
-
 .grc-tag-grid {
   display: flex;
   flex-wrap: wrap;
@@ -293,8 +281,6 @@ main a.grc-button-secondary:hover {
   font-weight: 600;
 }
 
-/* CTA Panels */
-
 .grc-cta-panel {
   background: linear-gradient(145deg, rgba(255,255,255,0.82), rgba(255,255,255,0.68));
   border: 1px solid rgba(216,208,197,0.9);
@@ -307,8 +293,6 @@ main a.grc-button-secondary:hover {
 .grc-cta-panel h2 {
   margin-top: 0;
 }
-
-/* Typography */
 
 h1 {
   font-size: 3rem;
@@ -336,8 +320,6 @@ hr {
   margin: 4rem 0;
 }
 
-/* Footer */
-
 .site-footer {
   border-top: 1px solid var(--grc-border);
   background: rgba(255,255,255,0.45);
@@ -361,8 +343,6 @@ hr {
   text-align: center;
   opacity: 0.8;
 }
-
-/* Mobile */
 
 @media (max-width: 768px) {
   .site-header-wrapper {
@@ -395,7 +375,13 @@ hr {
   }
 
   .grc-page-hero h1 {
-    line-height: 1;
+    font-size: clamp(1.9rem, 7vw, 2.9rem);
+    line-height: 1.08;
+    letter-spacing: 0.01em;
+  }
+
+  .grc-page-hero p {
+    font-size: 1rem;
   }
 
   .grc-hero-buttons {
