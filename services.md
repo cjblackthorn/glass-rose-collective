@@ -4,56 +4,105 @@ title: Services
 permalink: /services/
 ---
 
-# Services
+<div class="grc-page-hero grc-dark-section">
+  <h1>Publishing, distribution, creative support, and representation guidance for independent artists.</h1>
 
-Glass Rose Collective focuses on creator-first support.
+  <p>
+    Glass Rose Collective exists to help creators build something real without losing themselves to disposable algorithm culture.
+  </p>
+</div>
 
-We are building a collaborative ecosystem designed to help artists grow without losing their identity in the process.
+<div class="grc-card-grid">
+  <section class="grc-service-card">
+    <h2>Publishing Support</h2>
+    <p>
+      We help creators navigate publishing workflows for books, poetry, music, multimedia projects, and collaborative releases.
+    </p>
+  </section>
 
-## Current & Planned Services
+  <section class="grc-service-card">
+    <h2>Self-Publishing Guidance</h2>
+    <p>
+      Not every creator wants or needs a traditional publishing structure. We help artists understand independent publishing tools, platforms, workflows, and release strategies.
+    </p>
+  </section>
 
-### Publishing Support
+  <section class="grc-service-card">
+    <h2>Distribution Support</h2>
+    <p>
+      We help creators navigate release platforms, digital distribution, publishing ecosystems, and sustainable cross-platform publishing approaches.
+    </p>
+  </section>
 
-- indie publishing guidance
-- formatting assistance
-- release strategy
-- distribution guidance
-- branding alignment
+  <section class="grc-service-card">
+    <h2>Representation Support</h2>
+    <p>
+      We help creators network, connect with opportunities, refine their identity, and build sustainable artistic direction.
+    </p>
 
-### Artist Representation
+    <p>
+      Glass Rose Collective is not a talent agency.
+    </p>
+  </section>
 
-- creator networking
-- collaboration opportunities
-- referral connections
-- project support
-- representation guidance
+  <section class="grc-service-card">
+    <h2>Creative Collaboration</h2>
+    <p>
+      We want to help creators find each other. Writers, musicians, photographers, designers, and visual artists often work better together than alone.
+    </p>
+  </section>
 
-### Branding & Identity
+  <section class="grc-service-card">
+    <h2>Artist Development</h2>
+    <p>
+      Long-term sustainability matters. We focus on helping creators develop identity, direction, consistency, and meaningful growth.
+    </p>
+  </section>
+</div>
 
-- visual branding
-- website guidance
-- creator identity development
-- social presence strategy
-- aesthetic cohesion
+---
 
-### Creative Collaboration
+## What Makes Glass Rose Different
 
-- artist partnerships
-- multidisciplinary projects
-- collective showcases
-- cross-promotion
-- collaborative releases
+Glass Rose Collective is intentionally selective and creator-focused.
 
-### Community Support
+We are not trying to mass-produce disposable content.
+We are not trying to turn artists into algorithm machines.
+We are not interested in exploitative creator culture.
 
-- creator-focused spaces
-- emotional authenticity
-- alternative artist support
-- networking and mentorship
-- long-term growth encouragement
+We care about helping people create meaningful work that still feels human.
 
-## Our Philosophy
+---
 
-We are not trying to mass-produce creators.
+## Who We Support
 
-We want to help artists build sustainable creative identities that still feel human.
+We work with:
+
+- writers
+- bands
+- musicians
+- photographers
+- visual artists
+- designers
+- multimedia creators
+- alternative and independent creators
+
+We cannot help every project directly.
+
+But when possible, we try to connect creators with trusted resources, collaborators, and opportunities.
+
+---
+
+<div class="grc-cta-panel">
+  <h2>Interested in working with Glass Rose Collective?</h2>
+
+  <p>
+    Most projects are handled individually based on scope, creative alignment, and time investment.
+  </p>
+
+  <p>
+    Some support may be community-oriented, while larger publishing or development projects may involve paid collaborative work.
+  </p>
+
+  <a class="grc-button" href="{{ '/contact/' | relative_url }}">Start a Conversation</a>
+</div>
