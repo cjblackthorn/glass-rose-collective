@@ -1,0 +1,39 @@
+title: Glass Rose Collective
+author: Glass Rose Collective
+description: Indie artist publishing, representation, and collective support for creators building outside the algorithm.
+url: ""
+baseurl: ""
+
+theme: minima
+show_excerpts: true
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+collections:
+  artists:
+    output: true
+    permalink: /artists/:name/
+
+permalink: /news/:year/:month/:day/:title/
+
+navigation:
+  - title: Home
+    url: /
+  - title: Artists
+    url: /artists/
+  - title: Services
+    url: /services/
+  - title: Collective
+    url: /collective/
+  - title: News
+    url: /news/
+  - title: About
+    url: /about/
+  - title: Contact
+    url: /contact/
+
+social:
+  name: Glass Rose Collective
+  links: []
