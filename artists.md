@@ -34,38 +34,26 @@ permalink: /artists/
 
 <div class="grc-manifesto-divider"></div>
 
-<h2>Featured Creator Atmosphere</h2>
+<h2>Featured Creators</h2>
 
 <div class="grc-showcase-grid">
-  <section class="grc-showcase-card">
-    <span class="grc-showcase-label">Emerging Voice</span>
+  {% for creator in site.creators %}
+    <section class="grc-showcase-card">
+      {% if creator.status %}
+        <span class="grc-showcase-label">{{ creator.status }}</span>
+      {% endif %}
 
-    <h3>Midnight Static</h3>
+      <h3>
+        <a href="{{ creator.url | relative_url }}">{{ creator.title }}</a>
+      </h3>
 
-    <p>
-      Alternative indie project blending emotional storytelling, atmospheric sound, and raw vulnerability.
-    </p>
-  </section>
+      {% if creator.discipline %}
+        <p><strong>{{ creator.discipline }}</strong></p>
+      {% endif %}
 
-  <section class="grc-showcase-card">
-    <span class="grc-showcase-label">Visual Artist</span>
-
-    <h3>Glasslight Studio</h3>
-
-    <p>
-      Editorial-inspired visual work exploring identity, memory, softness, and fragmented emotional landscapes.
-    </p>
-  </section>
-
-  <section class="grc-showcase-card">
-    <span class="grc-showcase-label">Writer</span>
-
-    <h3>Roseveil Letters</h3>
-
-    <p>
-      Memoir, poetry, and emotionally honest long-form writing centered around survival, humanity, and connection.
-    </p>
-  </section>
+      <p>{{ creator.content | strip_html | truncatewords: 28 }}</p>
+    </section>
+  {% endfor %}
 </div>
 
 <h2>Who We Support</h2>
