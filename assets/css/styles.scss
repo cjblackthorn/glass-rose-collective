@@ -123,41 +123,50 @@ h6,
 }
 
 .grc-hero-buttons {
-  display: flex;
+  display: flex !important;
   gap: 1rem;
   flex-wrap: wrap;
+  align-items: center;
   margin-top: 2rem;
 }
 
 .grc-button,
 .grc-button-secondary {
-  display: inline-block;
-  padding: 0.9rem 1.5rem;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  min-width: 11rem;
+  padding: 0.9rem 1.5rem !important;
   border-radius: 999px;
-  text-decoration: none;
+  text-decoration: none !important;
   transition: all 0.2s ease;
-  font-weight: 600;
+  font-weight: 700;
+  line-height: 1.2;
 }
 
 .grc-button {
-  background: var(--grc-rose);
+  background: var(--grc-rose) !important;
   color: white !important;
   box-shadow: 0 8px 20px rgba(154,57,70,0.25);
 }
 
 .grc-button:hover {
-  background: #7c2835;
+  background: #7c2835 !important;
+  color: white !important;
   transform: translateY(-2px);
 }
 
 .grc-button-secondary {
-  border: 1px solid rgba(255,255,255,0.4);
+  border: 1px solid rgba(255,255,255,0.45) !important;
   color: white !important;
-  background: rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.1) !important;
 }
 
 .grc-button-secondary:hover {
-  background: rgba(255,255,255,0.14);
+  background: rgba(255,255,255,0.18) !important;
+  color: white !important;
+  transform: translateY(-2px);
 }
 
 .grc-homepage {
@@ -266,5 +275,12 @@ hr {
 
   .grc-hero-buttons {
     justify-content: center;
+  }
+
+  .grc-button,
+  .grc-button-secondary {
+    min-width: 0;
+    width: 100%;
+    max-width: 280px;
   }
 }
