@@ -192,12 +192,23 @@ blockquote {
   padding: 1rem 1.25rem;
 }
 
-a {
+main a {
   color: var(--grc-rose);
+  text-decoration: underline;
+  text-decoration-color: rgba(154,57,70,0.35);
+  text-underline-offset: 3px;
 }
 
-a:hover {
+main a:hover {
   color: #6f1f2d;
+}
+
+.site-footer a {
+  color: #4f6fbf;
+}
+
+.site-footer a:hover {
+  color: #34529c;
 }
 
 hr {
