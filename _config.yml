@@ -16,6 +16,18 @@ collections:
     output: true
     permalink: /artists/:name/
 
+  creators:
+    output: true
+    permalink: /artists/:name/
+
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+  journal:
+    output: true
+    permalink: /journal/:name/
+
 permalink: /news/:year/:month/:day/:title/
 
 navigation:
@@ -23,6 +35,10 @@ navigation:
     url: /
   - title: Artists
     url: /artists/
+  - title: Projects
+    url: /projects/
+  - title: Journal
+    url: /journal/
   - title: Services
     url: /services/
   - title: Collective
