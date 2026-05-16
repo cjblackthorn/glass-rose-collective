@@ -74,6 +74,43 @@ h6,
   display: flex;
   gap: 1.25rem;
   flex-wrap: wrap;
+  align-items: center;
+}
+
+.grc-dropdown {
+  position: relative;
+}
+
+.grc-dropdown-menu {
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  left: 0;
+  min-width: 220px;
+  background: rgba(245,240,232,0.98);
+  border: 1px solid var(--grc-border);
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+  padding: 0.5rem;
+  display: none;
+  z-index: 1001;
+}
+
+.grc-dropdown:hover .grc-dropdown-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.grc-dropdown-menu a {
+  color: var(--grc-charcoal) !important;
+  text-decoration: none !important;
+  padding: 0.7rem 0.9rem;
+  border-radius: 10px;
+  transition: all 0.2s ease;
+}
+
+.grc-dropdown-menu a:hover {
+  background: rgba(154,57,70,0.08);
+  color: var(--grc-rose) !important;
 }
 
 .site-title,
@@ -196,14 +233,14 @@ blockquote {
 }
 
 main a:not(.grc-button):not(.grc-button-secondary) {
-  color: var(--grc-rose);
+  color: var(--grc-rose) !important;
   text-decoration: underline;
   text-decoration-color: rgba(154,57,70,0.35);
   text-underline-offset: 3px;
 }
 
 main a:not(.grc-button):not(.grc-button-secondary):hover {
-  color: #6f1f2d;
+  color: #6f1f2d !important;
 }
 
 .site-footer a {
@@ -272,6 +309,11 @@ hr {
     justify-content: center;
     gap: 0.9rem;
     font-size: 0.95rem;
+  }
+
+  .grc-dropdown-menu {
+    position: static;
+    margin-top: 0.4rem;
   }
 
   .grc-hero-overlay {
