@@ -5,10 +5,10 @@ permalink: /services/
 ---
 
 <div class="grc-page-hero grc-dark-section">
-  <h1>Publishing, distribution, creative support, and representation guidance for independent artists.</h1>
+  <h1>Creator guidance, publishing navigation, collaborative support, and ethical creative ecosystems.</h1>
 
   <p>
-    Glass Rose Collective exists to help creators build something real without losing themselves to disposable algorithm culture.
+    Glass Rose Collective exists to help creators build something real without losing themselves to disposable creator culture.
   </p>
 </div>
 
@@ -23,57 +23,77 @@ permalink: /services/
 
   <div class="grc-editorial-panel">
     <p>
-      Glass Rose Collective focuses on creator-first support systems designed to help artists grow sustainably while preserving creative identity.
+      Glass Rose focuses on creator-first support systems intended to help artists grow sustainably while preserving creative identity, emotional honesty, and ownership.
     </p>
 
     <p>
-      We are intentionally selective, collaborative, and human-centered.
+      We reject exploitative creator culture and the idea that artists are disposable products.
     </p>
   </div>
 </div>
 
+<div class="grc-manifesto-divider"></div>
+
+<h2>Current Areas of Support</h2>
+
 <div class="grc-feature-grid">
   <section class="grc-feature-tile">
-    <h2>Publishing Support</h2>
+    <h2>Creator Guidance</h2>
     <p>
-      Guidance for books, poetry, music, multimedia projects, collaborative releases, and independent creator publishing workflows.
+      Helping creators navigate publishing systems, release pathways, indie ecosystems, branding questions, and creative direction.
     </p>
   </section>
 
   <section class="grc-feature-tile">
-    <h2>Self-Publishing Guidance</h2>
+    <h2>Publishing Navigation</h2>
     <p>
-      Support navigating platforms, publishing tools, workflows, release strategies, branding, and sustainable independent publishing.
-    </p>
-  </section>
-
-  <section class="grc-feature-tile">
-    <h2>Distribution Support</h2>
-    <p>
-      Guidance for digital releases, publishing ecosystems, distribution platforms, and long-term creator sustainability.
-    </p>
-  </section>
-
-  <section class="grc-feature-tile">
-    <h2>Representation Support</h2>
-    <p>
-      Creator-focused networking, referrals, identity refinement, branding support, and collaborative opportunity development.
+      Guidance for self-publishing, distribution options, release planning, formatting workflows, and creator-first publishing pathways.
     </p>
   </section>
 
   <section class="grc-feature-tile">
     <h2>Creative Collaboration</h2>
     <p>
-      Helping writers, musicians, photographers, visual artists, and designers connect through collaborative creative ecosystems.
+      Collaborative opportunities, multimedia ecosystem building, creator showcases, editorial features, and future collective projects.
     </p>
   </section>
 
   <section class="grc-feature-tile">
-    <h2>Artist Development</h2>
+    <h2>Branding & Identity</h2>
     <p>
-      Long-term support focused on consistency, identity, direction, meaningful growth, and sustainable artistic evolution.
+      Creator-focused feedback around artistic identity, emotional atmosphere, project cohesion, presentation, and long-term sustainability.
     </p>
   </section>
+
+  <section class="grc-feature-tile">
+    <h2>Networking & Referrals</h2>
+    <p>
+      Helping creators connect with trusted resources, collaborators, publishing pathways, distribution tools, and aligned creative ecosystems.
+    </p>
+  </section>
+
+  <section class="grc-feature-tile">
+    <h2>Editorial Features</h2>
+    <p>
+      Future creator spotlights, interviews, collaborative reflections, release features, and collective journal expansion.
+    </p>
+  </section>
+</div>
+
+<div class="grc-dark-section">
+  <h2>Starting Small Intentionally</h2>
+
+  <p>
+    Glass Rose Collective is intentionally growing slowly and carefully.
+  </p>
+
+  <p>
+    The long-term dream is expansive, but meaningful creator support requires sustainability, emotional bandwidth, honesty, and realistic capacity.
+  </p>
+
+  <p>
+    Some projects may involve direct collaboration. Others may involve ecosystem guidance, referrals, strategy discussions, publishing navigation, or trusted partner recommendations.
+  </p>
 </div>
 
 <div class="grc-split-section">
@@ -103,25 +123,27 @@ permalink: /services/
 <h2>Who We Support</h2>
 
 <div class="grc-tag-grid">
+  <span>Indie Creators</span>
+  <span>DIY Artists</span>
   <span>Writers</span>
   <span>Bands</span>
   <span>Musicians</span>
   <span>Photographers</span>
   <span>Visual Artists</span>
-  <span>Designers</span>
-  <span>Multimedia Creators</span>
-  <span>Independent Creators</span>
+  <span>Alternative Creators</span>
+  <span>LGBTQ+ Creators</span>
+  <span>Disabled Creators</span>
 </div>
 
 <div class="grc-cta-panel">
   <h2>Interested in working with Glass Rose Collective?</h2>
 
   <p>
-    Most projects are handled individually based on creative alignment, project scope, and available collaborative capacity.
+    Projects are approached individually based on creative alignment, available capacity, ecosystem fit, and collaborative goals.
   </p>
 
   <p>
-    Some initiatives may be community-oriented, while larger projects may involve paid collaborative or publishing support.
+    Some support may be community-oriented. Other projects may involve paid collaborative guidance, publishing support, or creator ecosystem consulting.
   </p>
 
   <a class="grc-button" href="{{ '/contact/' | relative_url }}">Start a Conversation</a>
