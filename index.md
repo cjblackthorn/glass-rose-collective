@@ -160,17 +160,19 @@ title: Glass Rose Collective
   </div>
 </div>
 
-<h2>Who We Support</h2>
+<div class="grc-support-section">
+  <h2>Who We Support</h2>
 
-<div class="grc-tag-grid">
-  <span>Writers</span>
-  <span>Bands</span>
-  <span>Musicians</span>
-  <span>Photographers</span>
-  <span>Visual Artists</span>
-  <span>Designers</span>
-  <span>Multimedia Creators</span>
-  <span>Alternative Creators</span>
+  <div class="grc-tag-grid">
+    <span>Writers</span>
+    <span>Bands</span>
+    <span>Musicians</span>
+    <span>Photographers</span>
+    <span>Visual Artists</span>
+    <span>Designers</span>
+    <span>Multimedia Creators</span>
+    <span>Alternative Creators</span>
+  </div>
 </div>
 
 <div class="grc-cta-panel">
