@@ -42,7 +42,8 @@ def main():
             if not (ROOT / "_includes" / include).is_file():
                 errors.append(f"{file.relative_to(ROOT)}: missing include '{include}'")
         found = front_matter_layout(content)
-        # The configured Minima theme supplies page and post layouts outside this repo.\n        if found and found not in {"page", "post"} and not (ROOT / "_layouts" / f"{found}.html").is_file():
+        # The configured Minima theme supplies page and post layouts outside this repo.
+        if found and found not in {"page", "post"} and not (ROOT / "_layouts" / f"{found}.html").is_file():
             errors.append(f"{file.relative_to(ROOT)}: missing layout '{found}'")
 
     if errors:
