@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://cjblackthorn.github.io/glass-rose-collective/sitemap.xml
