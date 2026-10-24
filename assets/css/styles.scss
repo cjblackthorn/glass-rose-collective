@@ -563,3 +563,32 @@ main a:not(.grc-button):not(.grc-button-secondary) {
     justify-content: flex-start;
   }
 }
+
+/* Keyboard access shared across the collective's layouts. */
+.grc-skip-link {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 2000;
+  padding: .8rem 1rem;
+  border-radius: .5rem;
+  background: #fff;
+  color: var(--grc-charcoal);
+  font: 700 1rem "Inter", sans-serif;
+  transform: translateY(calc(-100% - 2rem));
+}
+.grc-skip-link:focus { transform: none; }
+:where(a,button,input,select,textarea):focus-visible {
+  outline: 3px solid var(--grc-rose);
+  outline-offset: 3px;
+  box-shadow: 0 0 0 5px #fff;
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

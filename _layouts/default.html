@@ -12,9 +12,10 @@
   </head>
 
   <body>
+    <a class="grc-skip-link" href="#main-content">Skip to main content</a>
     {%- include header.html -%}
 
-    <main class="page-content" aria-label="Content">
+    <main id="main-content" tabindex="-1" class="page-content" aria-label="Content">
       {{ content }}
     </main>
 
