@@ -1,0 +1,34 @@
+name: Validate Jekyll sitemap render
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  render-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/configure-pages@v5
+      - name: Build site with GitHub Pages Jekyll environment
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - name: Validate published sitemap and robots
+        run: |
+          set -e
+          test -s _site/index.html
+          test -s _site/sitemap.xml
+          test -s _site/robots.txt
+          grep -Fq 'https://cjblackthorn.github.io/glass-rose-collective/' _site/sitemap.xml
+          grep -Fq 'Sitemap: https://cjblackthorn.github.io/glass-rose-collective/sitemap.xml' _site/robots.txt
